@@ -12,6 +12,7 @@ function solve(input) {
             } else {
                 console.log(`${hero} is already enrolled.`);
             }
+           
         } else if (comand == "Learn") {
             if (obj.hasOwnProperty(hero) && obj[hero].includes(toDo)) {
                 console.log(`${hero} has already learnt ${toDo}.`);
